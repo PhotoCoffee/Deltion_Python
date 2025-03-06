@@ -3,3 +3,13 @@
 # Groep:
 
 # Hier komt je code...
+
+print(5*"     *      ")
+print(5*"    ***     ")
+print(5*"   *****    ")
+print(5*"  *******   ")
+print(5*" *********  ")
+print(5*"*********** ")
+print(5*"    ***     ")
+print(5*"    ***     ")
+print(5*"    ***     ")
