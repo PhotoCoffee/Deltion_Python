@@ -1,5 +1,11 @@
-# Opdracht 1 while-loops
-# Naam student:
-# Groep:
 
-# Jouw code komt hier
+bestand = open("resultaat.txt", "a")
+bestand.write(input("Wat is je naam? "))
+bestand.write("\n")
+bestand.write(input("Wat vind je van de huidige regering? "))
+bestand.write("\n")
+bestand.write(input("Wat vind je van de Python-lessen tot nu toe? "))
+bestand.write("\n")
+bestand.write(input("Wat vind jij de mooiste stad van Nederland? "))
+bestand.write("\n")
+bestand.close()
