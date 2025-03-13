@@ -4,14 +4,12 @@
 
 
 def kilometers_naar_miles(km):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    conversion = km * 0.621371
+    return(f"{km} kilometers = {conversion} miles")
 
 def miles_naar_kilometers(miles):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    conversion = miles * 1.60934
+    return(f"{miles} miles = {conversion} kilometers")
 
 kilometers = 1223
 miles = 867
