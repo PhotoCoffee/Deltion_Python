@@ -4,14 +4,12 @@
 
 
 def kubus_vol(m):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    volume = m ** 3
+    return(f"De inhoud van deze kubus is: {volume}.")
 
 def bol_vol(r):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    volume = (4/3) * 3.14159265358979323846 * r ** 3
+    return(f"De inhoud van deze bol is: {volume}.")
 
 zijde = 5
 radius = 4
