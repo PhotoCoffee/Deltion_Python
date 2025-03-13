@@ -4,9 +4,11 @@
 
 
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
+    for naam in lijst_met_namen:
+        if naam["tussenvoegsel"] == "":
+            print(f"{naam['voornaam']} {naam['achternaam']}")
+        else:
+            print(f"{naam['voornaam']} {naam['tussenvoegsel']} {naam['achternaam']}")
 
 
 namen = [
