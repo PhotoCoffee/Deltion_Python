@@ -4,15 +4,13 @@
 
 # Hier komt je code...
 x = 1
-y = ...
-print( ... )
+y = (4*x**3) - (3*x**2) - 1
+print(y) 
 
 x = 2
-y = ...
-print( ... )
+y = (4*x**3) - (3*x**2) - 1
+print(y)
 
 x = 0
-y = ...
-print( ... )
-
-#Hoi! ik begrijp niet wat hier van mij gevraagd wordt. Ik weet hoe je kan rekenen met strings in python.
+y = y = (4*x**3) - (3*x**2) - 1
+print(y)
